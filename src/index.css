@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+}
+body {
+	background: hsl(0, 0%, 6%);
+}
+
+a {
+	font-weight: 300;
+	font-family: 'roboto';
+	letter-spacing: 2px;
+}
+a:hover {
+	font-weight: 500;
+	color: hsl(35, 60%, 50%);
+}
+
+.a {
+	margin-right: 1px;
+}
